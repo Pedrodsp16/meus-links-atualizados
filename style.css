@@ -1,0 +1,171 @@
+body {
+    background: linear-gradient(45deg,  #042326, #1D7373);
+        letter-spacing: 2px;
+
+            /*tamanho do fundo*/
+        background-size: 400% 400%;
+
+            /*animação de fundo*/
+        animation: gradient 5s infinite;
+        height: 100vh;
+}
+    
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+
+}
+
+  /*imagens*/
+.imagem {
+    text-align: center;
+}
+
+/*< > Pedro Daniel < / >*/
+.pedro {
+    text-align: center;
+    color:#ffffff;
+    font-size: 18pt;
+    font-family: FreeMono, monospace;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+}
+
+ /*desenvolvedor de software*/
+.fraseefeito {
+    font-size: 11pt;
+    text-align: center;
+    color:#ffffff;
+    font-family: FreeMono, monospace;
+    text-shadow: black 5px 5px 5px;
+}
+
+
+ /*links*/
+a {
+    color: #ffffff;
+    font-size: 15pt;
+}
+/*links das redes sociais*/
+.insta {
+    font-size: 13pt;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    text-shadow: black 5px 2px 5px;
+    
+}
+/*Hover é mouse em cima do elemento*/
+.insta:hover {
+    color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    animation: button 3s infinite;
+}
+
+
+
+.face {
+    font-size: 13pt;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    text-shadow: black 5px 2px 5px;
+    
+
+    
+}
+.face:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    animation: button 3s infinite;
+        box-shadow: 50px #000000;
+    
+}
+
+
+.link {
+    font-size: 13pt;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    text-shadow: black 5px 2px 5px;
+    
+   
+   
+    
+}
+.link:hover { 
+
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    animation: button 3s infinite;
+}
+
+
+.git {
+    font-size: 13pt;
+    font-family: FreeMono, monospace;
+    text-align: center;
+    border: 2px solid #ffffff;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    text-shadow: black 5px 2px 5px;
+    
+   
+   
+    
+}
+.git:hover { 
+  
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    animation: button 3s infinite;
+
+   
+   
+}
+
+ 
+
+/*Developed with html and css, by Pedro.*/
+
+.final {
+    text-align: center;
+    color:#ffffff;
+    font-size: 10pt;
+    font-family: FreeMono, monospace;
+    text-shadow: black 5px 5px 5px;
+}
+
+@keyframes button{
+    0%{box-shadow: 0 0 8px #ffffff;}
+    50%{box-shadow: 0 0 50px #ffffff;}
+    
+}
+
+
+
+
